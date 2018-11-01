@@ -1,0 +1,4 @@
+-r requirements-dev.txt
+whitenoise==4.1
+gunicorn
+#psycopg2
