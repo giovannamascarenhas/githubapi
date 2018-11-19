@@ -19,10 +19,12 @@ from rest_framework import routers
 from django.conf.urls import include
 from github_core.views import GithubtesteViewSet
 from github_core.views import GithubrepositoriosViewSet
+from github_core.views import GithubViewSet
 
 router = routers.DefaultRouter()
 router.register(r'users', GithubtesteViewSet, basename='homeapi')
 router.register(r'repos', GithubrepositoriosViewSet, basename='reposapi')
+router.register(r'newusers', GithubViewSet, basename='newusers')
 
 urlpatterns = [
     #path("api/", GithubTeste.as_view(), name="teste_api"),
