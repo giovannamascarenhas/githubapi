@@ -6,7 +6,7 @@ colorama==0.4.0
 decorator==4.3.0
 dj-database-url==0.5.0
 dj-static==0.0.6
-Django==2.1.2
+Django==2.2.24
 djangorestframework==3.9.0
 idna==2.7
 ipdb==0.11
